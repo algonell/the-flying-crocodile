@@ -1,14 +1,16 @@
 #!/bin/sh
 
+TFC=~/git/the-flying-crocodile/
+
 # pull
-git pull
+git -C $TFC pull
 
 # update
-cp ~/Downloads/TFC\ Cumulative.html .
-cp ~/Downloads/TFC\ Daily.html .
-cp ~/Downloads/Hypothetical\ Performance.html .
+cp ~/Downloads/TFC\ Cumulative.html $TFC
+cp ~/Downloads/TFC\ Daily.html $TFC
+cp ~/Downloads/Hypothetical\ Performance.html $TFC
 
 # push
-git add *
-git commit -m "chore: update stats"
-git push
+git -C $TFC add $TFC
+git -C $TFC commit -m "chore: update stats"
+git -C $TFC push
