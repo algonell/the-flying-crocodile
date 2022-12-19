@@ -8,7 +8,7 @@ git -C $TFC pull
 # update
 cp ~/Downloads/TFC\ Cumulative.html $TFC
 cp ~/Downloads/TFC\ Daily.html $TFC
-cp ~/Downloads/Hypothetical\ Performance.html $TFC
+cp ~/Downloads/TFC\ Hypothetical.html $TFC
 
 # push
 git -C $TFC add $TFC
