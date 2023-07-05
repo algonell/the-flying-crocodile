@@ -10,10 +10,6 @@ cp ~/Downloads/TFC\ Equities\ Cumulative.html $TFC
 cp ~/Downloads/TFC\ Equities\ Daily.html $TFC
 cp ~/Downloads/TFC\ Equities\ Hypothetical.html $TFC
 
-cp ~/Downloads/TFC\ FX\ Cumulative.html $TFC
-cp ~/Downloads/TFC\ FX\ Daily.html $TFC
-cp ~/Downloads/TFC\ FX\ Hypothetical.html $TFC
-
 cp ~/Downloads/TFC\ Cryptocurrencies\ Cumulative.html $TFC
 cp ~/Downloads/TFC\ Cryptocurrencies\ Daily.html $TFC
 cp ~/Downloads/TFC\ Cryptocurrencies\ Hypothetical.html $TFC
