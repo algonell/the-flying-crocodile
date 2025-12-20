@@ -6,6 +6,9 @@ TFC=~/git/the-flying-crocodile/
 git -C $TFC pull
 
 # update
+cp ~/Downloads/TFC\ Topstep\ Cumulative.html $TFC
+cp ~/Downloads/TFC\ Topstep\ Daily.html $TFC
+
 cp ~/Downloads/TFC\ Equities\ Cumulative.html $TFC
 cp ~/Downloads/TFC\ Equities\ Daily.html $TFC
 
