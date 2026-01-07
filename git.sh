@@ -9,11 +9,11 @@ git -C $TFC pull
 cp ~/Downloads/TFC\ Topstep\ Cumulative.html $TFC
 cp ~/Downloads/TFC\ Topstep\ Daily.html $TFC
 
-cp ~/Downloads/TFC\ Equities\ Cumulative.html $TFC
-cp ~/Downloads/TFC\ Equities\ Daily.html $TFC
+cp ~/Downloads/TFC\ Interactive\ Brokers\ Cumulative.html $TFC
+cp ~/Downloads/TFC\ Interactive\ Brokers\ Daily.html $TFC
 
-cp ~/Downloads/TFC\ Cryptocurrencies\ Cumulative.html $TFC
-cp ~/Downloads/TFC\ Cryptocurrencies\ Daily.html $TFC
+cp ~/Downloads/TFC\ Binance\ Cumulative.html $TFC
+cp ~/Downloads/TFC\ Binance\ Daily.html $TFC
 
 # push
 git -C $TFC add $TFC
